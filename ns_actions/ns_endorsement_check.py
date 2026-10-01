@@ -373,6 +373,7 @@ def main():
     unendorsed = (
         wa_in_region - already_endorsed
     )
+    unendorsed.discard("jim_the_baptist")
 
     print(
         f"Already endorsed in region: "
